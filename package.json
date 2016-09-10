@@ -8,6 +8,9 @@
     "build-prod": "set NODE_ENV=production && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "reactappbuild": "./bin/index.js"
+  },
   "author": "dkotik",
   "devDependencies": {
     "babel-core": "^6.9.1",
