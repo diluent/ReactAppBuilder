@@ -8,6 +8,9 @@
     "build-prod": "set NODE_ENV=production && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "snippet": "./snippet.js"
+  },
   "author": "dkotik",
   "devDependencies": {
     "babel-core": "^6.9.1",
@@ -33,6 +36,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "commander": "^2.9.0",
+    "cross-spawn": "^4.0.0",
+    "minimist": "^1.2.0",
     "node-libs-browser": "^0.4.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
